@@ -463,25 +463,25 @@
         let isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         let pixelRatio = isMobile ? Math.min(window.devicePixelRatio, 1.5) : 1; // 限制移动端像素比
         
-        // 模型列表 - 您需要将这些URL替换为您的模型文件在GitHub上的实际URL
+        // 模型列表
         const models = [
             {
                 id: 1,
                 name: "测试模型1",
                 type: "glb",
-                url: "3dviewer/models/model.glb" // 替换为您的模型文件路径
+                url: "3dviewer/models/model.glb" 
             },
             {
                 id: 2,
                 name: "测试模型2",
                 type: "glb",
-                url: "3dviewer/models/1.glb" // 替换为您的模型文件路径
+                url: "3dviewer/models/1.glb" 
             },
             {
                 id: 3,
                 name: "测试模型3",
                 type: "glb",
-                url: "3dviewer/models/2.glb" // 替换为您的模型文件路径
+                url: "3dviewer/models/2.glb"
             }
         ];
         
